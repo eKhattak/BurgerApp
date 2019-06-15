@@ -1,0 +1,21 @@
+.Burger {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .Burger {
+        width: 250px;
+        height: 200px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
